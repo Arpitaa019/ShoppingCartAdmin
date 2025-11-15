@@ -1,0 +1,118 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "ShoppingCartAdmin.Class/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/ShoppingCartAdmin.Class.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ShoppingCartAdmin.Class.dll": {}
+        }
+      },
+      "ShoppingCartAdmin.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/ShoppingCartAdmin.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ShoppingCartAdmin.Models.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ShoppingCartAdmin.Class/1.0.0": {
+      "type": "project",
+      "path": "../ShoppingCartAdmin.ClassFiles/ShoppingCartAdmin.Class.csproj",
+      "msbuildProject": "../ShoppingCartAdmin.ClassFiles/ShoppingCartAdmin.Class.csproj"
+    },
+    "ShoppingCartAdmin.Models/1.0.0": {
+      "type": "project",
+      "path": "../ShoppingCartAdmin.Models/ShoppingCartAdmin.Models.csproj",
+      "msbuildProject": "../ShoppingCartAdmin.Models/ShoppingCartAdmin.Models.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "ShoppingCartAdmin.Class >= 1.0.0",
+      "ShoppingCartAdmin.Models >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\ARPITA\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\MyRepo\\ShoppingCartAdmin\\ShoppingCartAdmin\\ShoppingCartAdmin.Service\\ShoppingCartAdmin.Service.csproj",
+      "projectName": "ShoppingCartAdmin.Service",
+      "projectPath": "D:\\MyRepo\\ShoppingCartAdmin\\ShoppingCartAdmin\\ShoppingCartAdmin.Service\\ShoppingCartAdmin.Service.csproj",
+      "packagesPath": "C:\\Users\\ARPITA\\.nuget\\packages\\",
+      "outputPath": "D:\\MyRepo\\ShoppingCartAdmin\\ShoppingCartAdmin\\ShoppingCartAdmin.Service\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\ARPITA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "D:\\MyRepo\\ShoppingCartAdmin\\ShoppingCartAdmin\\ShoppingCartAdmin.ClassFiles\\ShoppingCartAdmin.Class.csproj": {
+              "projectPath": "D:\\MyRepo\\ShoppingCartAdmin\\ShoppingCartAdmin\\ShoppingCartAdmin.ClassFiles\\ShoppingCartAdmin.Class.csproj"
+            },
+            "D:\\MyRepo\\ShoppingCartAdmin\\ShoppingCartAdmin\\ShoppingCartAdmin.Models\\ShoppingCartAdmin.Models.csproj": {
+              "projectPath": "D:\\MyRepo\\ShoppingCartAdmin\\ShoppingCartAdmin\\ShoppingCartAdmin.Models\\ShoppingCartAdmin.Models.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

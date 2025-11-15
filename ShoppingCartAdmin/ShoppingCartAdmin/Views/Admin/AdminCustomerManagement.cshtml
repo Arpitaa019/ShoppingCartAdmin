@@ -1,0 +1,103 @@
+﻿@{
+    ViewData["Title"] = "AdminCustomerDetails";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+  <!-- Header -->
+    <div style="background-color:#2c3e50; color:white; padding:15px 30px; font-size:20px;">
+        Flipkart Admin – Customer Management
+    </div>
+
+    <!-- Main Content -->
+    <div style="padding:30px;">
+
+        <h2 style="margin-bottom:20px;">Customer Profile</h2>
+        <div style="display:flex; gap:40px; margin-bottom:30px;">
+            <div>
+                <p><strong>Name:</strong> Ravi Kumar</p>
+                <p><strong>Email:</strong> ravi@example.com</p>
+                <p><strong>Mobile:</strong> 9876543210</p>
+                <p><strong>Status:</strong> Active</p>
+                <p><strong>Last Login:</strong> 18 Oct 2025, 9:15 PM</p>
+            </div>
+            <div>
+                <button style="padding:8px 12px;">Reset Password</button>
+                <button style="padding:8px 12px;">Block Customer</button>
+            </div>
+        </div>
+
+        <h3>Order History</h3>
+        <table style="width:100%; border-collapse:collapse; background-color:white; margin-bottom:30px;">
+            <thead>
+                <tr style="background-color:#ecf0f1;">
+                    <th style="padding:10px; border:1px solid #ccc;">Order ID</th>
+                    <th style="padding:10px; border:1px solid #ccc;">Date</th>
+                    <th style="padding:10px; border:1px solid #ccc;">Amount</th>
+                    <th style="padding:10px; border:1px solid #ccc;">Status</th>
+                    <th style="padding:10px; border:1px solid #ccc;">Delivery</th>
+                </tr>
+            </thead>
+            <tbody id="orderHistory"></tbody>
+        </table>
+
+        <h3>Payment Summary</h3>
+        <div style="display:flex; gap:40px; margin-bottom:30px;">
+            <div>
+                <p><strong>Total Paid:</strong> ₹7,812</p>
+                <p><strongRefunds:</strong> ₹320</p>
+                <p><strong>Wallet Balance:</strong> ₹150</p>
+                <p><strong>Preferred Method:</strong> Razorpay</p>
+            </div>
+        </div>
+
+        <h3>Login Activity</h3>
+        <table style="width:100%; border-collapse:collapse; background-color:white;">
+            <thead>
+                <tr style="background-color:#ecf0f1;">
+                    <th style="padding:10px; border:1px solid #ccc;">IP Address</th>
+                    <th style="padding:10px; border:1px solid #ccc;">Device</th>
+                    <th style="padding:10px; border:1px solid #ccc;">Timestamp</th>
+                </tr>
+            </thead>
+            <tbody id="loginActivity"></tbody>
+        </table>
+    </div>
+
+    <!-- Static Data Script -->
+    <script>
+        $(document).ready(function () {
+            const orders = [
+                { id: "OD43500322", date: "15 Oct 2025", amount: "₹1,732", status: "Delivered", delivery: "18 Oct 2025" },
+                { id: "OD43500323", date: "10 Oct 2025", amount: "₹2,450", status: "Shipped", delivery: "17 Oct 2025" },
+                { id: "OD43500324", date: "05 Oct 2025", amount: "₹3,630", status: "Cancelled", delivery: "-" }
+            ];
+
+            const logins = [
+                { ip: "192.168.1.10", device: "Chrome on Windows", time: "18 Oct 2025, 9:15 PM" },
+                { ip: "192.168.1.11", device: "Safari on iPhone", time: "17 Oct 2025, 6:42 PM" },
+                { ip: "192.168.1.12", device: "Edge on Mac", time: "16 Oct 2025, 8:30 AM" }
+            ];
+
+            orders.forEach(o => {
+                $("#orderHistory").append(`
+                    <tr>
+                        <td style="padding:10px; border:1px solid #ccc;">${o.id}</td>
+                        <td style="padding:10px; border:1px solid #ccc;">${o.date}</td>
+                        <td style="padding:10px; border:1px solid #ccc;">${o.amount}</td>
+                        <td style="padding:10px; border:1px solid #ccc;">${o.status}</td>
+                        <td style="padding:10px; border:1px solid #ccc;">${o.delivery}</td>
+                    </tr>
+                `);
+            });
+
+            logins.forEach(l => {
+                $("#loginActivity").append(`
+                    <tr>
+                        <td style="padding:10px; border:1px solid #ccc;">${l.ip}</td>
+                        <td style="padding:10px; border:1px solid #ccc;">${l.device}</td>
+                        <td style="padding:10px; border:1px solid #ccc;">${l.time}</td>
+                    </tr>
+                `);
+            });
+        });
+    </script>

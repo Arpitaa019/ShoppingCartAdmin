@@ -1,0 +1,16 @@
+D:\MyRepo\ShoppingCartAdmin\ShoppingCartAdmin\ShoppingCartAdmin.Infrastructure\bin\Debug\net8.0\ShoppingCartAdmin.Infrastructure.deps.json
+D:\MyRepo\ShoppingCartAdmin\ShoppingCartAdmin\ShoppingCartAdmin.Infrastructure\bin\Debug\net8.0\ShoppingCartAdmin.Infrastructure.dll
+D:\MyRepo\ShoppingCartAdmin\ShoppingCartAdmin\ShoppingCartAdmin.Infrastructure\bin\Debug\net8.0\ShoppingCartAdmin.Infrastructure.pdb
+D:\MyRepo\ShoppingCartAdmin\ShoppingCartAdmin\ShoppingCartAdmin.Infrastructure\bin\Debug\net8.0\ShoppingCartAdmin.Class.dll
+D:\MyRepo\ShoppingCartAdmin\ShoppingCartAdmin\ShoppingCartAdmin.Infrastructure\bin\Debug\net8.0\ShoppingCartAdmin.Class.pdb
+D:\MyRepo\ShoppingCartAdmin\ShoppingCartAdmin\ShoppingCartAdmin.Infrastructure\obj\Debug\net8.0\ShoppingCartAdmin.Infrastructure.csproj.AssemblyReference.cache
+D:\MyRepo\ShoppingCartAdmin\ShoppingCartAdmin\ShoppingCartAdmin.Infrastructure\obj\Debug\net8.0\ShoppingCartAdmin.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\MyRepo\ShoppingCartAdmin\ShoppingCartAdmin\ShoppingCartAdmin.Infrastructure\obj\Debug\net8.0\ShoppingCartAdmin.Infrastructure.AssemblyInfoInputs.cache
+D:\MyRepo\ShoppingCartAdmin\ShoppingCartAdmin\ShoppingCartAdmin.Infrastructure\obj\Debug\net8.0\ShoppingCartAdmin.Infrastructure.AssemblyInfo.cs
+D:\MyRepo\ShoppingCartAdmin\ShoppingCartAdmin\ShoppingCartAdmin.Infrastructure\obj\Debug\net8.0\ShoppingCartAdmin.Infrastructure.csproj.CoreCompileInputs.cache
+D:\MyRepo\ShoppingCartAdmin\ShoppingCartAdmin\ShoppingCartAdmin.Infrastructure\obj\Debug\net8.0\ShoppingCartAdmin.Infrastructure.sourcelink.json
+D:\MyRepo\ShoppingCartAdmin\ShoppingCartAdmin\ShoppingCartAdmin.Infrastructure\obj\Debug\net8.0\Shopping.1F127581.Up2Date
+D:\MyRepo\ShoppingCartAdmin\ShoppingCartAdmin\ShoppingCartAdmin.Infrastructure\obj\Debug\net8.0\ShoppingCartAdmin.Infrastructure.dll
+D:\MyRepo\ShoppingCartAdmin\ShoppingCartAdmin\ShoppingCartAdmin.Infrastructure\obj\Debug\net8.0\refint\ShoppingCartAdmin.Infrastructure.dll
+D:\MyRepo\ShoppingCartAdmin\ShoppingCartAdmin\ShoppingCartAdmin.Infrastructure\obj\Debug\net8.0\ShoppingCartAdmin.Infrastructure.pdb
+D:\MyRepo\ShoppingCartAdmin\ShoppingCartAdmin\ShoppingCartAdmin.Infrastructure\obj\Debug\net8.0\ref\ShoppingCartAdmin.Infrastructure.dll

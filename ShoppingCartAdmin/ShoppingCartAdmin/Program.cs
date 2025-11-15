@@ -1,7 +1,25 @@
+using ShoppingCart.Infrastructure.Repository.Seller;
+using ShoppingCartAdmin.Class.Repository.Abstraction.Sellers;
+using ShoppingCartAdmin.Infrastructure.Repository.Seller;
+using ShoppingCartAdmin.Infrastructure.Sql;
+using ShoppingCartAdmin.Service.Abstraction.Seller;
+using ShoppingCartAdmin.Service.Services.Seller;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddSingleton<DbHelper>();
+
+builder.Services.AddScoped<ISellerDetailsRepository, SellerDetailsRepository>();
+builder.Services.AddScoped<ISellerDetailsService, SellerDetailsService>();
+
+builder.Services.AddScoped<ICompanyRepository, CompanyRepository>();
+builder.Services.AddScoped<ICompanyService, CompanyService>();
+
+builder.Services.AddScoped<ISellerLoginRepository, SellerLoginRepository>();
+builder.Services.AddScoped<ISellerLoginService, SellerLoginService>();
 
 var app = builder.Build();
 
@@ -22,6 +40,6 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    pattern: "{controller=Admin}/{action=Index}/{id?}");
 
 app.Run();

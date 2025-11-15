@@ -6,4 +6,10 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ShoppingCartAdmin.ClassFiles\ShoppingCartAdmin.Class.csproj" />
+    <ProjectReference Include="..\ShoppingCartAdmin.Infrastructure\ShoppingCartAdmin.Infrastructure.csproj" />
+    <ProjectReference Include="..\ShoppingCartAdmin.Service\ShoppingCartAdmin.Service.csproj" />
+  </ItemGroup>
+
 </Project>

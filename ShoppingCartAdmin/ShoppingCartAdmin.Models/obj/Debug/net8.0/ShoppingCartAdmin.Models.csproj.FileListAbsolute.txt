@@ -1,0 +1,12 @@
+D:\MyRepo\ShoppingCartAdmin\ShoppingCartAdmin\ShoppingCartAdmin.Models\bin\Debug\net8.0\ShoppingCartAdmin.Models.deps.json
+D:\MyRepo\ShoppingCartAdmin\ShoppingCartAdmin\ShoppingCartAdmin.Models\bin\Debug\net8.0\ShoppingCartAdmin.Models.dll
+D:\MyRepo\ShoppingCartAdmin\ShoppingCartAdmin\ShoppingCartAdmin.Models\bin\Debug\net8.0\ShoppingCartAdmin.Models.pdb
+D:\MyRepo\ShoppingCartAdmin\ShoppingCartAdmin\ShoppingCartAdmin.Models\obj\Debug\net8.0\ShoppingCartAdmin.Models.GeneratedMSBuildEditorConfig.editorconfig
+D:\MyRepo\ShoppingCartAdmin\ShoppingCartAdmin\ShoppingCartAdmin.Models\obj\Debug\net8.0\ShoppingCartAdmin.Models.AssemblyInfoInputs.cache
+D:\MyRepo\ShoppingCartAdmin\ShoppingCartAdmin\ShoppingCartAdmin.Models\obj\Debug\net8.0\ShoppingCartAdmin.Models.AssemblyInfo.cs
+D:\MyRepo\ShoppingCartAdmin\ShoppingCartAdmin\ShoppingCartAdmin.Models\obj\Debug\net8.0\ShoppingCartAdmin.Models.csproj.CoreCompileInputs.cache
+D:\MyRepo\ShoppingCartAdmin\ShoppingCartAdmin\ShoppingCartAdmin.Models\obj\Debug\net8.0\ShoppingCartAdmin.Models.sourcelink.json
+D:\MyRepo\ShoppingCartAdmin\ShoppingCartAdmin\ShoppingCartAdmin.Models\obj\Debug\net8.0\ShoppingCartAdmin.Models.dll
+D:\MyRepo\ShoppingCartAdmin\ShoppingCartAdmin\ShoppingCartAdmin.Models\obj\Debug\net8.0\refint\ShoppingCartAdmin.Models.dll
+D:\MyRepo\ShoppingCartAdmin\ShoppingCartAdmin\ShoppingCartAdmin.Models\obj\Debug\net8.0\ShoppingCartAdmin.Models.pdb
+D:\MyRepo\ShoppingCartAdmin\ShoppingCartAdmin\ShoppingCartAdmin.Models\obj\Debug\net8.0\ref\ShoppingCartAdmin.Models.dll
